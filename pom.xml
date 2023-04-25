@@ -36,7 +36,7 @@
 						<connectedAppClientId>${client_id}</connectedAppClientId>
 						<connectedAppClientSecret>${client_secret}</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
-						<applicationName>cicd-GITHUBActions</applicationName>
+						<applicationName>cicd-GITHUBActions-v1</applicationName>
 						<environment>${env}</environment>
 						<workerType>MICRO</workerType>
 						<workers>1</workers>
