@@ -37,7 +37,7 @@
 						<connectedAppClientSecret>${client_secret}</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
 						<applicationName>cicd-GITHUB</applicationName>
-						<environment>Sandbox</environment>
+						<environment>$(env)</environment>
 						<workerType>MICRO</workerType>
 						<workers>1</workers>
 						<objectStoreV2>true</objectStoreV2>
