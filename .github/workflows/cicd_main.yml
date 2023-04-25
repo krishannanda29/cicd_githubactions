@@ -64,4 +64,4 @@ jobs:
          -Dmule.artifact=$artifactName \
          -Danypoint.client_id="$client_id" \
          -Danypoint.client_secret="$client_secret"
-         -Denv="Prod"
+         -Denv="PROD"
